@@ -46,6 +46,12 @@ nav a{
     
 }
 
+.frontpg{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+
 .headimg{
     padding:5%;
 }
@@ -107,3 +113,31 @@ h2{
 
 
 /*********Footer Styles**************/
+
+#contact{
+    margin-top: 4%;
+}
+.bottom p{
+    line-height:1.6;
+    margin-bottom:6%;
+}
+.bottom{
+    width:22%;
+}
+
+.copyright{
+    width:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    width:100%;
+}
