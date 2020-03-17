@@ -30,7 +30,7 @@ nav a{
     }
 
 
-.logo{
+.topImg{
     width:15%;
     padding-right:2%;
 }
@@ -180,4 +180,19 @@ footer{
     }
 
 
+}
+/**phone view***/
+@media(max-width:500px){
+    .topNav{
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .topNav a{
+    padding-bottom:2%;
+    }
+    .topImg{
+        justify-content:center;
+        align-content: center;
+    }
 }
