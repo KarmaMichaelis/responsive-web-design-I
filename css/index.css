@@ -38,18 +38,70 @@ nav a{
     display: flex;
     width:100%;
 }
-
-    
-
-/*********Text-area section Styles**************/
+/**end of navigation**/
 
 .mainimg{
     display: flex;
     flex-direction: row-reverse;
+    
 }
 
 .headimg{
     padding:5%;
+}
+
+button{
+    width:9%;
+
+    
+}
+.title{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/**come back to fix header images and h1**/ 
+
+
+/*********Text-area section Styles**************/
+
+h2{
+    margin-bottom: 3%;
+}
+.features{
+    width:45%;
+}
+.about{
+    width:45%;
+}
+.textOne{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middle-img{
+    
+    margin:2% 5%;
+    text-align: center;
+}
+
+.services{
+    width:25%;
+}
+.product{
+    width:25%;
+}
+.vision{
+    width:25%;
+}
+
+.textTwo{
+    padding:2%;
+    line-height:1.6;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
